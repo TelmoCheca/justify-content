@@ -1,0 +1,54 @@
+body{
+  background-color: #a4f3eb;
+}
+
+/* style comuni */
+.container {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 2px solid black;
+}
+  
+.text{
+    font-family: cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex > div{
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  background: linear-gradient(-25deg, #ee08df, hwb(87 15% 10%));
+}
+
+/* style specifico */
+.flex-start {
+  justify-content: start;
+}
+
+.flex-end {
+  justify-content: end;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
